@@ -1,0 +1,133 @@
+.hambur{
+
+position: relative;    
+width: 220px;
+height: 170px;
+left: 20px;
+top: 70px;
+
+
+}
+
+
+.container{
+
+    height: 350px;
+}
+
+.row{
+position: relative;    
+width: 1200px;
+height: 350px;
+left: 80px;
+
+
+}
+.nar{
+
+background-color: black;
+height: 350px;
+
+
+
+}
+
+.hambu2{
+
+    position: relative;
+    width: 220px;
+    height: 170px; 
+    top:70px ;   
+    left: -20px;
+ 
+}
+
+
+
+
+
+
+.t1{
+position: relative;
+color: white;
+top: 100px;
+left: 20px;
+
+}
+
+.t3{
+
+    position: relative;
+    color: white;
+    top: 70px;
+    left: 40px;
+
+
+}
+
+
+
+.col-2{
+
+display: inline;
+
+
+}
+
+.col-4{
+
+    display: inline;
+    
+    
+    }
+
+.btn{
+
+position: relative;    
+top: 115px;
+background-color: orange;
+left: 150px;
+
+}    
+
+.cuadro2{
+
+position: relative;
+left: 100px;
+top: 50px;
+
+}
+
+.imagen1{
+
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.imagen2{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    
+}
+
+.imagen3{
+
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 80px;
+    
+}
+
+.cuadro3{
+
+position: relative;
+left: -20px;
+
+
+}

@@ -1,0 +1,26 @@
+<div class="menu">
+  <button mat-button [matMenuTriggerFor]="aboveMenu">Localidad</button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+    <button routerLink="localidad" mat-menu-item>Localidad</button>
+    <button routerLink="localidad/listaCards"  mat-menu-item>localidad-Cards</button>
+  
+  </mat-menu>
+
+  <button mat-button [matMenuTriggerFor]="belowMenu">Personajes</button>
+  <mat-menu #belowMenu="matMenu" yPosition="below">
+    <button routerLink="personajes" mat-menu-item>Personajes</button>
+    <button routerLink="personajes/listaCards"mat-menu-item>Personajes-Cards</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </mat-menu>
+
+
+
+  <button mat-button [matMenuTriggerFor]="beforeMenu">Episodios</button>
+  <mat-menu #beforeMenu="matMenu" xPosition="before">
+    <button routerLink="episodios"mat-menu-item>Episodios</button>
+    <button routerLink="episodios/listaCards"  mat-menu-item>Episodios-Cards</button>
+ 
+  </mat-menu>
+
+ 
+</div>

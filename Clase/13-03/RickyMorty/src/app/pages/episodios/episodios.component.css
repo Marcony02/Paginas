@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+  }
+
+img{
+
+    width: 100px;
+    height: 100px;
+
+}  
+.example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }

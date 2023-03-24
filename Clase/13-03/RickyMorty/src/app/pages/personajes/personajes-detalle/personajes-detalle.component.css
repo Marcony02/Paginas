@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .row {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .row .col-12 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    height: 100%;
+  }
+  table{
+
+    color: white;
+  }

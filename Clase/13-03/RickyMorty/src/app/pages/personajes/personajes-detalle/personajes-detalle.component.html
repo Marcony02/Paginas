@@ -1,0 +1,66 @@
+<div class="row">
+
+    <div class="col-12" *ngIf="personaje.id">
+
+        <div class="card" style="width: 18rem;">
+
+            <img src="{{personaje.image}}" class="card-img-top" alt="">
+            <div class="card-body">
+                <h2 class="card-title">{{personaje.name}}</h2>
+                <ul class="card-text"></ul>
+                <li>Status:{{personaje.status}} </li>
+                <li>Specie:{{personaje.species}} </li>
+                <li>Gender:{{personaje.gender}} </li>
+                <li>Date:{{personaje.created | date:'short'}} </li>
+
+
+
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+<div class="col-12">
+
+</div>
+<div class="col-12">
+  <table class="table table-striped" style="width: 600px;">
+      <thead>
+          <th>Episode link</th>
+          <th>Details(split)</th>
+          <!-- <th>Details(Input)</th> -->
+          <th>Details(Service)</th>
+      </thead>
+      <tbody>
+          <tr *ngFor="let perEpi of personaje?.episode;">
+              <td>{{perEpi}}</td>
+              <td>
+                  <button class="btn btn-dark"
+                      [routerLink]="['/Episode/detalleEpisode',getIdEpisodios(perEpi)]">Detalle</button>
+              </td>
+              <!-- <td>
+                  <button class="btn btn-dark">Detalle</button>
+              </td> -->
+              <td>
+                  <!-- [routerLink]="['/Episode/detalleEpisode']" -->
+                  <button class="btn btn-dark" (click)="sendEpisodios(perEpi)">Detalle</button>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource">
+    <!-- Position Column -->
+    <ng-container matColumnDef="idEmpleados">
+      <th mat-header-cell *matHeaderCellDef>idEmpleados</th>
+      <td mat-cell *matCellDef="let element">{{ element.idEmpleados }}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="idPersonas">
+      <th mat-header-cell *matHeaderCellDef>idPersonas</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.Persona.idPersonas }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="nombre1">
+      <th mat-header-cell *matHeaderCellDef>nombre1</th>
+      <td mat-cell *matCellDef="let element">{{ element.Persona.nombre1 }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="apellido1">
+      <th mat-header-cell *matHeaderCellDef>apellido1</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.Persona.apellido1 }}
+      </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="apellido2">
+      <th mat-header-cell *matHeaderCellDef>apellido2</th>
+      <td mat-cell *matCellDef="let element">
+        {{ element.Persona.apellido2 }}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef>email</th>
+      <td mat-cell *matCellDef="let element">{{ element.Persona.email }}</td>
+    </ng-container>
+    <ng-container matColumnDef="telefono">
+      <th mat-header-cell *matHeaderCellDef>telefono</th>
+      <td mat-cell *matCellDef="let element">{{ element.Persona.telefono }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="idPuesto">
+      <th mat-header-cell *matHeaderCellDef>Puesto</th>
+      <td mat-cell *matCellDef="let element">{{ element.Puesto.idPuesto }}</td>
+    </ng-container>
+    <ng-container matColumnDef="nombre">
+      <th mat-header-cell *matHeaderCellDef>nombre</th>
+      <td mat-cell *matCellDef="let element">{{ element.Puesto.nombre }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+
+  <mat-paginator
+    [pageSizeOptions]="[5, 10, 20]"
+    showFirstLastButtons
+    aria-label="Select page of periodic elements"
+  >
+  </mat-paginator>
+</div>

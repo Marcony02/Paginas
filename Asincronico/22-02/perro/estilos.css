@@ -1,0 +1,160 @@
+html{
+
+background-color: rgb(149, 212, 233);
+font-family:Arial,sans-serif;
+}
+
+.golden{
+
+
+width: 420px;
+height: 500px;
+position: relative;
+left: 500px;
+border-radius: 20px;
+
+}
+
+.cuadro{
+background-color: white;
+position: relative;
+height: 500px;
+width: 900px;
+left: 250px;
+top: 100px;
+border-radius: 20px;
+
+}
+
+.title{
+
+position: relative;
+top: 7px;   
+left: 100px; 
+width: 500px;
+color: white;
+
+
+}
+
+.caja{
+
+    position: relative;
+    width: 550px;
+    height: 40px;
+    background-color: hsla(202, 98%, 50%, 0.918);
+    top: -480px;
+    left: -50px;
+}
+
+.label-number{
+
+position: relative;
+top: -460px; 
+left: 50px;
+
+}
+
+.number-Card{
+
+position: relative;    
+top: -430px;
+left: -47px; 
+border: none;
+border-bottom:2px solid grey ;
+width: 450px;
+font-size: 17px;
+
+}
+
+
+.label-card{
+
+position: relative;
+top: -410px; 
+left: 52px;
+
+}
+.name-card{
+
+position: relative;
+top: -387px;
+left: -60px; 
+border: none;
+border-bottom:2px solid grey ;
+width: 450px;
+font-size: 17px; 
+
+}
+
+.label-date{
+
+    position: relative;
+    top: -365px; 
+left: 52px; 
+
+}
+
+.date{
+
+    position: relative;
+    top: -335px;
+left: -35px; 
+border: none;
+border-bottom:2px solid grey ;
+width: 70px;
+font-size: 17px; 
+
+}
+
+.label-csv{
+
+    position: relative;
+    top: -365px; 
+    left: 80px; 
+
+}
+
+.signo{
+
+    position: relative;
+    
+    top: -365px; 
+    left: 118px; 
+    color: hsla(202, 98%, 50%, 0.918);
+
+}
+
+.csv{
+
+    position: relative;
+    top: -336px;
+    left: px; 
+    border: none;
+    border-bottom:2px solid grey ;
+    width: 110px;
+    font-size: 17px; 
+
+
+}
+
+.label-continue{
+
+    position: relative;
+    top: -250px; 
+    left: 70px; 
+
+
+}
+
+
+
+.icon{
+
+    position: relative;
+    top: -247px; 
+    left: 55px; 
+    color: hsla(202, 98%, 50%, 0.918); 
+    
+
+}

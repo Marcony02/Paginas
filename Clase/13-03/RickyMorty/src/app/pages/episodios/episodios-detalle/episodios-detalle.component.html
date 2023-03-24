@@ -1,0 +1,21 @@
+<div class="row">
+
+    <div class="col-12" *ngIf="Episodio.id">
+
+        <div class="card" style="width: 18rem;">
+
+          
+            <div class="card-body">
+                <h2 class="card-title">{{Episodio.name}}</h2>
+                <ul class="card-text"></ul>
+                <li>air_date:{{Episodio.air_date}} </li>
+                <li>Episodio:{{Episodio.episode}} </li>
+                <li>Date:{{Episodio.created | date:'short'}} </li>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
